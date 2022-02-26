@@ -1,0 +1,15 @@
+
+    function validate() {
+
+            const username = document.getElementById("username-field").value;
+    	    const password = document.getElementById("password-field").value;
+    	   if (username == "Hi" && password == "hello") {
+    	        alert("You have successfully logged in.")
+
+    	    } else {
+    	        document.getElementById("login-error-msg").style.opacity = 1;
+          }
+}
+
+
+
